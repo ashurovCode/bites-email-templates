@@ -1,0 +1,865 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Is SMS worth the upgrade? - Mailchimp</title>
+    <!--[if mso]>
+      <style type="text/css">
+        body,
+        table,
+        td {
+          font-family: Arial, Helvetica, sans-serif !important;
+        }
+      </style>
+    <![endif]-->
+    <style>
+      /* Reset styles */
+      body {
+        margin: 0;
+        padding: 0;
+        width: 100% !important;
+        -webkit-text-size-adjust: 100%;
+        -ms-text-size-adjust: 100%;
+        background-color: #efeeea;
+      }
+
+      img {
+        border: 0;
+        outline: none;
+        text-decoration: none;
+        -ms-interpolation-mode: bicubic;
+        max-width: 100%;
+        height: auto;
+      }
+
+      table {
+        border-collapse: collapse;
+        mso-table-lspace: 0pt;
+        mso-table-rspace: 0pt;
+      }
+
+      /* Base styles */
+      .email-container {
+        max-width: 600px;
+        margin: 0 auto;
+        background-color: #efeeea;
+      }
+
+      .header {
+        background-color: #efeeea;
+        padding: 20px;
+      }
+
+      .logo {
+        max-width: 150px;
+        height: auto;
+      }
+
+      .hero-section {
+        background-color: #efeeea;
+        padding: 0 20px 30px 20px;
+      }
+
+      .hero-image {
+        width: 100%;
+        height: auto;
+        display: block;
+      }
+
+      .content-section {
+        padding: 30px 20px;
+        background-color: #efeeea;
+      }
+
+      .headline {
+        font-family: 'Georgia', serif;
+        font-size: 28px;
+        font-weight: bold;
+        color: #000000;
+        margin: 0 0 10px 0;
+        line-height: 1.2;
+      }
+
+      .subheadline {
+        font-family: 'Georgia', serif;
+        font-size: 24px;
+        font-style: italic;
+        color: #000000;
+        margin: 0 0 20px 0;
+        line-height: 1.2;
+      }
+
+      .body-text {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 14px;
+        color: #333333;
+        line-height: 1.6;
+        margin: 0 0 20px 0;
+      }
+
+      .cta-button {
+        background-color: #ffe01b;
+        color: #000000;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 16px;
+        font-weight: bold;
+        text-decoration: none;
+        padding: 15px 40px;
+        border-radius: 25px;
+        display: inline-block;
+        margin: 20px 0;
+      }
+
+      .feature-section {
+        padding: 20px;
+        background-color: #efeeea;
+      }
+
+      .feature-item {
+        margin-bottom: 30px;
+      }
+
+      .feature-image {
+        width: 100%;
+        max-width: 200px;
+        height: auto;
+        margin-right: 20px;
+      }
+
+      .feature-content {
+        flex: 1;
+      }
+
+      .feature-title {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 18px;
+        font-weight: bold;
+        color: #000000;
+        margin: 0 0 10px 0;
+      }
+
+      .feature-text {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 14px;
+        color: #333333;
+        line-height: 1.6;
+        margin: 0;
+      }
+
+      .upgrade-section {
+        padding: 30px 20px;
+        background-color: #efeeea;
+      }
+
+      .disclaimer {
+        padding: 20px;
+        background-color: #efeeea;
+      }
+
+      .disclaimer-text {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 11px;
+        color: #666666;
+        line-height: 1.5;
+        margin: 0;
+      }
+
+      .footer {
+        padding: 30px 20px;
+        background-color: #f7f7f7;
+        text-align: center;
+      }
+
+      .footer-logo {
+        max-width: 120px;
+        margin-bottom: 15px;
+      }
+
+      .footer-text {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 12px;
+        color: #666666;
+        line-height: 1.5;
+        margin: 10px 0;
+      }
+
+      .footer-links {
+        margin: 15px 0;
+      }
+
+      .footer-link {
+        color: #666666;
+        text-decoration: none;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 12px;
+        margin: 0 10px;
+      }
+
+      .social-icons {
+        margin: 15px 0;
+      }
+
+      .social-icon {
+        display: inline-block;
+        margin: 0 8px;
+        width: 24px;
+        height: 24px;
+      }
+
+      .app-badges {
+        margin: 15px 0;
+      }
+
+      .app-badge {
+        display: inline-block;
+        margin: 5px;
+        max-width: 120px;
+      }
+
+      /* Responsive styles */
+      @media only screen and (max-width: 600px) {
+        .email-container {
+          width: 100% !important;
+        }
+
+        .headline {
+          font-size: 24px !important;
+        }
+
+        .subheadline {
+          font-size: 20px !important;
+        }
+
+        .content-section,
+        .hero-section,
+        .feature-section,
+        .upgrade-section,
+        .disclaimer,
+        .footer {
+          padding: 20px 15px !important;
+        }
+
+        .cta-button {
+          display: block !important;
+          text-align: center;
+          padding: 15px 20px !important;
+        }
+
+        .feature-image {
+          max-width: 150px !important;
+          margin-right: 0 !important;
+          margin-bottom: 15px !important;
+        }
+
+        .feature-item td {
+          display: block !important;
+          width: 100% !important;
+        }
+      }
+
+      @media only screen and (max-width: 480px) {
+        .headline {
+          font-size: 22px !important;
+        }
+
+        .subheadline {
+          font-size: 18px !important;
+        }
+
+        .body-text,
+        .feature-text {
+          font-size: 13px !important;
+        }
+      }
+    </style>
+  </head>
+  <body style="margin: 0; padding: 0; background-color: #efeeea">
+    <!-- Wrapper table -->
+    <table
+      role="presentation"
+      width="100%"
+      cellspacing="0"
+      cellpadding="0"
+      border="0"
+      style="background-color: #efeeea"
+    >
+      <tr>
+        <td align="center" style="padding: 20px 0">
+          <!-- Main email container -->
+          <table
+            role="presentation"
+            class="email-container"
+            width="600"
+            cellspacing="0"
+            cellpadding="0"
+            border="0"
+            style="background-color: #efeeea"
+          >
+            <!-- Header with logo -->
+            <tr>
+              <td
+                class="header"
+                style="background-color: #efeeea; padding: 20px"
+              >
+                <img
+                  src="logo.png"
+                  alt="Mailchimp"
+                  class="logo"
+                  style="max-width: 150px; height: auto"
+                />
+              </td>
+            </tr>
+
+            <!-- Hero section with image -->
+            <tr>
+              <td
+                class="hero-section"
+                style="background-color: #efeeea; padding: 0 20px 30px 20px"
+              >
+                <img
+                  src="hero.png"
+                  alt="SMS Marketing"
+                  class="hero-image"
+                  style="
+                    width: 100%;
+                    height: auto;
+                    display: block;
+                    border-radius: 8px;
+                  "
+                />
+              </td>
+            </tr>
+
+            <!-- Main content section -->
+            <tr>
+              <td
+                class="content-section"
+                style="padding: 30px 20px; background-color: #efeeea"
+              >
+                <h1
+                  class="headline"
+                  style="
+                    font-family: 'Georgia', serif;
+                    font-size: 28px;
+                    font-weight: bold;
+                    color: #000000;
+                    margin: 0 0 10px 0;
+                    line-height: 1.2;
+                  "
+                >
+                  Is SMS worth the upgrade?
+                </h1>
+                <p
+                  class="subheadline"
+                  style="
+                    font-family: 'Georgia', serif;
+                    font-size: 24px;
+                    font-style: italic;
+                    color: #000000;
+                    margin: 0 0 20px 0;
+                    line-height: 1.2;
+                  "
+                >
+                  (Spoiler alert: It sure is)
+                </p>
+                <p
+                  class="body-text"
+                  style="
+                    font-family: Arial, Helvetica, sans-serif;
+                    font-size: 14px;
+                    color: #333333;
+                    line-height: 1.6;
+                    margin: 0 0 20px 0;
+                  "
+                >
+                  The benefits of SMS Marketing is accessible to Mailchimp's
+                  Standard plan—but it isn't just being powerful for engagement
+                  to your campaigns and your customers' phones. When SMS (get it
+                  right) new users find your brand and make purchases—and
+                  existing customers get the updates they want, when they want
+                  them. With SMS, you can help give your customers a seamless
+                  brand—no matter where they are.
+                </p>
+                <p
+                  class="body-text"
+                  style="
+                    font-family: Arial, Helvetica, sans-serif;
+                    font-size: 14px;
+                    color: #333333;
+                    line-height: 1.6;
+                    margin: 0 0 20px 0;
+                  "
+                >
+                  Ready to see what SMS can do for your business? Upgrade to a
+                  Standard plan and unlock the power of SMS in your marketing
+                  mix. It's email marketing and automation platform,
+                  supercharged.
+                </p>
+                <table
+                  role="presentation"
+                  width="100%"
+                  cellspacing="0"
+                  cellpadding="0"
+                  border="0"
+                >
+                  <tr>
+                    <td align="center">
+                      <a
+                        href="#"
+                        class="cta-button"
+                        style="
+                          background-color: #ffe01b;
+                          color: #000000;
+                          font-family: Arial, Helvetica, sans-serif;
+                          font-size: 16px;
+                          font-weight: bold;
+                          text-decoration: none;
+                          padding: 15px 40px;
+                          border-radius: 25px;
+                          display: inline-block;
+                          margin: 20px 0;
+                        "
+                      >
+                        Explore SMS
+                      </a>
+                    </td>
+                  </tr>
+                </table>
+              </td>
+            </tr>
+
+            <!-- Feature section 1 -->
+            <tr>
+              <td
+                class="feature-section"
+                style="padding: 20px; background-color: #efeeea"
+              >
+                <table
+                  role="presentation"
+                  width="100%"
+                  cellspacing="0"
+                  cellpadding="0"
+                  border="0"
+                  class="feature-item"
+                >
+                  <tr>
+                    <td width="200" valign="top" style="padding-right: 20px">
+                      <img
+                        src="build.png"
+                        alt="Build connections"
+                        class="feature-image"
+                        style="
+                          width: 100%;
+                          max-width: 200px;
+                          height: auto;
+                          border-radius: 8px;
+                          display: block;
+                        "
+                      />
+                    </td>
+                    <td valign="top" class="feature-content">
+                      <h2
+                        class="feature-title"
+                        style="
+                          font-family: Arial, Helvetica, sans-serif;
+                          font-size: 18px;
+                          font-weight: bold;
+                          color: #000000;
+                          margin: 0 0 10px 0;
+                        "
+                      >
+                        Build direct connections that inspire action
+                      </h2>
+                      <p
+                        class="feature-text"
+                        style="
+                          font-family: Arial, Helvetica, sans-serif;
+                          font-size: 14px;
+                          color: #333333;
+                          line-height: 1.6;
+                          margin: 0;
+                        "
+                      >
+                        Higher open rates than traditional email? Check. Faster
+                        delivery? Check. With that kind of reach, SMS can help
+                        give your brand, promotions, and updates the attention
+                        they deserve in a format customers prefer.
+                      </p>
+                    </td>
+                  </tr>
+                </table>
+              </td>
+            </tr>
+
+            <!-- Feature section 2 -->
+            <tr>
+              <td style="padding: 20px; background-color: #efeeea">
+                <table
+                  role="presentation"
+                  width="100%"
+                  cellspacing="0"
+                  cellpadding="0"
+                  border="0"
+                  class="feature-item"
+                >
+                  <tr>
+                    <td width="200" valign="top" style="padding-right: 20px">
+                      <img
+                        src="build2.png"
+                        alt="Build connections"
+                        class="feature-image"
+                        style="
+                          width: 100%;
+                          max-width: 200px;
+                          height: auto;
+                          border-radius: 8px;
+                          display: block;
+                        "
+                      />
+                    </td>
+                    <td valign="top" class="feature-content">
+                      <h2
+                        class="feature-title"
+                        style="
+                          font-family: Arial, Helvetica, sans-serif;
+                          font-size: 18px;
+                          font-weight: bold;
+                          color: #000000;
+                          margin: 0 0 10px 0;
+                        "
+                      >
+                        Build direct connections that inspire action
+                      </h2>
+                      <p
+                        class="feature-text"
+                        style="
+                          font-family: Arial, Helvetica, sans-serif;
+                          font-size: 14px;
+                          color: #333333;
+                          line-height: 1.6;
+                          margin: 0;
+                        "
+                      >
+                        Higher open rates than traditional email? Check. Faster
+                        delivery? Check. With that kind of reach, SMS can help
+                        give your brand, promotions, and updates the attention
+                        they deserve in a format customers prefer.
+                      </p>
+                    </td>
+                  </tr>
+                </table>
+              </td>
+            </tr>
+
+            <!-- Feature section 3 -->
+            <tr>
+              <td
+                class="feature-section"
+                style="padding: 20px; background-color: #efeeea"
+              >
+                <table
+                  role="presentation"
+                  width="100%"
+                  cellspacing="0"
+                  cellpadding="0"
+                  border="0"
+                  class="feature-item"
+                >
+                  <tr>
+                    <td width="200" valign="top" style="padding-right: 20px">
+                      <img
+                        src="build3.png"
+                        alt="Build connections"
+                        class="feature-image"
+                        style="
+                          width: 100%;
+                          max-width: 200px;
+                          height: auto;
+                          border-radius: 8px;
+                          display: block;
+                        "
+                      />
+                    </td>
+                    <td valign="top" class="feature-content">
+                      <h2
+                        class="feature-title"
+                        style="
+                          font-family: Arial, Helvetica, sans-serif;
+                          font-size: 18px;
+                          font-weight: bold;
+                          color: #000000;
+                          margin: 0 0 10px 0;
+                        "
+                      >
+                        Build direct connections that inspire action
+                      </h2>
+                      <p
+                        class="feature-text"
+                        style="
+                          font-family: Arial, Helvetica, sans-serif;
+                          font-size: 14px;
+                          color: #333333;
+                          line-height: 1.6;
+                          margin: 0;
+                        "
+                      >
+                        Higher open rates than traditional email? Check. Faster
+                        delivery? Check. With that kind of reach, SMS can help
+                        give your brand, promotions, and updates the attention
+                        they deserve in a format customers prefer.
+                      </p>
+                    </td>
+                  </tr>
+                </table>
+              </td>
+            </tr>
+
+            <!-- Upgrade section -->
+            <tr>
+              <td
+                class="upgrade-section"
+                style="padding: 30px 20px; background-color: #efeeea"
+              >
+                <h2
+                  class="feature-title"
+                  style="
+                    font-family: Arial, Helvetica, sans-serif;
+                    font-size: 18px;
+                    font-weight: bold;
+                    color: #000000;
+                    margin: 0 0 10px 0;
+                  "
+                >
+                  Ready to to add SMS Marketing to your campaign?
+                </h2>
+                <p
+                  class="body-text"
+                  style="
+                    font-family: Arial, Helvetica, sans-serif;
+                    font-size: 14px;
+                    color: #333333;
+                    line-height: 1.6;
+                    margin: 0 0 20px 0;
+                  "
+                >
+                  Upgrade to any of our paid plans to start your SMS application
+                  today. Once you're approved, you'll be able to send SMS
+                  campaigns and automations to your audience. And with
+                  Mailchimp's all-in-one marketing platform, you can manage your
+                  SMS and email campaigns in one place. Already have a paid
+                  plan? Start your SMS application today.
+                </p>
+                <table
+                  role="presentation"
+                  width="100%"
+                  cellspacing="0"
+                  cellpadding="0"
+                  border="0"
+                >
+                  <tr>
+                    <td align="center">
+                      <a
+                        href="#"
+                        class="cta-button"
+                        style="
+                          background-color: #ffe01b;
+                          color: #000000;
+                          font-family: Arial, Helvetica, sans-serif;
+                          font-size: 16px;
+                          font-weight: bold;
+                          text-decoration: none;
+                          padding: 15px 40px;
+                          border-radius: 25px;
+                          display: inline-block;
+                          margin: 20px 0;
+                        "
+                      >
+                        Upgrade my plan
+                      </a>
+                    </td>
+                  </tr>
+                </table>
+              </td>
+            </tr>
+
+            <!-- Disclaimer -->
+            <tr>
+              <td
+                class="disclaimer"
+                style="padding: 20px; background-color: #efeeea"
+              >
+                <p
+                  class="disclaimer-text"
+                  style="
+                    font-family: Arial, Helvetica, sans-serif;
+                    font-size: 11px;
+                    color: #666666;
+                    line-height: 1.5;
+                    margin: 0;
+                  "
+                >
+                  <strong>Disclaimer</strong><br />
+                  1. SMS is available on an add-on for 10 paid plans only and
+                  SMS credits are added to your monthly invoice. Credits are
+                  based on country and exceed credits based on your plan. Please
+                  note that SMS credits are non-refundable. 2. Standard,
+                  Premium, or Essentials plans are required to use SMS. Please
+                  note that SMS is currently available in select countries and
+                  regions only.
+                </p>
+              </td>
+            </tr>
+
+            <!-- Footer -->
+            <tr>
+              <td
+                class="footer"
+                style="
+                  padding: 30px 20px;
+                  background-color: #efeeea;
+                  text-align: center;
+                "
+              >
+                <img
+                  src="logo.png"
+                  alt="Mailchimp"
+                  class="footer-logo"
+                  style="max-width: 120px; margin-bottom: 15px"
+                />
+
+                <p
+                  class="footer-text"
+                  style="
+                    font-family: Arial, Helvetica, sans-serif;
+                    font-size: 12px;
+                    color: #666666;
+                    line-height: 1.5;
+                    margin: 10px 0;
+                  "
+                >
+                  <strong>Intuit Mailchimp</strong><br />
+                  675 Ponce de Leon Ave NE<br />
+                  Suite 5000<br />
+                  Atlanta, GA 30308
+                </p>
+
+                <div class="footer-links" style="margin: 15px 0">
+                  <a
+                    href="#"
+                    class="footer-link"
+                    style="
+                      color: #666666;
+                      text-decoration: none;
+                      font-family: Arial, Helvetica, sans-serif;
+                      font-size: 12px;
+                      margin: 0 10px;
+                    "
+                    >Privacy Policy</a
+                  >
+                  <a
+                    href="#"
+                    class="footer-link"
+                    style="
+                      color: #666666;
+                      text-decoration: none;
+                      font-family: Arial, Helvetica, sans-serif;
+                      font-size: 12px;
+                      margin: 0 10px;
+                    "
+                    >Terms & Conditions</a
+                  >
+                  <a
+                    href="#"
+                    class="footer-link"
+                    style="
+                      color: #666666;
+                      text-decoration: none;
+                      font-family: Arial, Helvetica, sans-serif;
+                      font-size: 12px;
+                      margin: 0 10px;
+                    "
+                    >Unsubscribe</a
+                  >
+                </div>
+
+                <div class="social-icons" style="margin: 15px 0">
+                  <a href="#" style="display: inline-block; margin: 0 8px">
+                    <img
+                      src="instagram.png"
+                      alt="Instagram"
+                      class="social-icon"
+                      style="width: 24px; height: 24px"
+                    />
+                  </a>
+                  <a href="#" style="display: inline-block; margin: 0 8px">
+                    <img
+                      src="facebook.png"
+                      alt="Facebook"
+                      class="social-icon"
+                      style="width: 24px; height: 24px"
+                    />
+                  </a>
+                  <a href="#" style="display: inline-block; margin: 0 8px">
+                    <img
+                      src="x.png"
+                      alt="X (Twitter)"
+                      class="social-icon"
+                      style="width: 24px; height: 24px"
+                    />
+                  </a>
+                  <a href="#" style="display: inline-block; margin: 0 8px">
+                    <img
+                      src="youtube.png"
+                      alt="YouTube"
+                      class="social-icon"
+                      style="width: 24px; height: 24px"
+                    />
+                  </a>
+                </div>
+
+                <div class="app-badges" style="margin: 15px 0">
+                  <a href="#" style="display: inline-block; margin: 5px">
+                    <img
+                      src="ios.png"
+                      alt="Download on App Store"
+                      class="app-badge"
+                      style="max-width: 120px"
+                    />
+                  </a>
+                  <a href="#" style="display: inline-block; margin: 5px">
+                    <img
+                      src="google.png"
+                      alt="Get it on Google Play"
+                      class="app-badge"
+                      style="max-width: 120px"
+                    />
+                  </a>
+                </div>
+
+                <p
+                  class="footer-text"
+                  style="
+                    font-family: Arial, Helvetica, sans-serif;
+                    font-size: 11px;
+                    color: #666666;
+                    line-height: 1.5;
+                    margin: 15px 0;
+                  "
+                >
+                  ©2001–2025 All Rights Reserved. Mailchimp® is a registered
+                  trademark of The Rocket Science Group, LLC. Apple, the Apple
+                  logo, and iPhone are trademarks of Apple Inc., registered in
+                  the U.S. and other countries. App Store is a service mark of
+                  Apple Inc. Google Play and the Google Play logo are trademarks
+                  of Google LLC.
+                </p>
+              </td>
+            </tr>
+          </table>
+        </td>
+      </tr>
+    </table>
+  </body>
+</html>
