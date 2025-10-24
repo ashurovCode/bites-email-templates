@@ -1,4 +1,4 @@
-# Mailchimp SMS Marketing Email Template
+# Bites SMS Marketing Email Template
 
 A responsive HTML email template based on the Mailchimp SMS Marketing campaign design.
 
@@ -43,18 +43,19 @@ The template uses placeholder images. Replace these URLs with your actual images
 
 ```html
 <!-- Logo -->
-<img src="YOUR_LOGO_URL" alt="Mailchimp">
+<img src="YOUR_LOGO_URL" alt="Mailchimp" />
 
 <!-- Hero Image -->
-<img src="YOUR_HERO_IMAGE_URL" alt="SMS Marketing">
+<img src="YOUR_HERO_IMAGE_URL" alt="SMS Marketing" />
 
 <!-- Feature Images -->
-<img src="YOUR_FEATURE_IMAGE_URL" alt="Feature description">
+<img src="YOUR_FEATURE_IMAGE_URL" alt="Feature description" />
 ```
 
 #### Update Colors
 
 Main colors used in the template:
+
 - **Primary Background**: `#2C3E50` (Dark blue-gray)
 - **CTA Button**: `#FFE01B` (Yellow/Gold)
 - **Light Background**: `#F7F7F7` (Light gray)
@@ -63,6 +64,7 @@ Main colors used in the template:
 #### Modify Text Content
 
 Update the text content in the HTML to match your campaign:
+
 - Headlines
 - Body copy
 - CTA button text
@@ -72,6 +74,7 @@ Update the text content in the HTML to match your campaign:
 ### Sending the Email
 
 #### Option 1: Using Mailchimp
+
 1. Log into your Mailchimp account
 2. Create a new campaign
 3. Choose "Code your own" template
@@ -79,7 +82,9 @@ Update the text content in the HTML to match your campaign:
 5. Test and send
 
 #### Option 2: Using Other Email Service Providers
+
 Most ESPs support custom HTML templates:
+
 - **SendGrid**: Use their HTML editor
 - **Campaign Monitor**: Import custom HTML
 - **Constant Contact**: Use custom code option
@@ -89,6 +94,7 @@ Most ESPs support custom HTML templates:
 ### Email Client Compatibility
 
 ✅ **Supported**:
+
 - Gmail (Desktop & Mobile)
 - Apple Mail (iOS & macOS)
 - Outlook 2016+ (Windows & Mac)
@@ -98,6 +104,7 @@ Most ESPs support custom HTML templates:
 - Outlook.com
 
 ⚠️ **Limited Support**:
+
 - Outlook 2007-2013 (uses Word rendering engine)
 - Some older email clients may not support all styles
 
@@ -173,6 +180,7 @@ This template is provided as-is for educational and commercial use.
 ## 🤝 Support
 
 For questions or issues with this template, please refer to:
+
 - Email client documentation
 - Your ESP's support resources
 - HTML email development communities
@@ -180,6 +188,7 @@ For questions or issues with this template, please refer to:
 ---
 
 **Note**: Remember to comply with email marketing laws (CAN-SPAM, GDPR, etc.) by including:
+
 - Physical mailing address
 - Unsubscribe link
 - Clear sender identification
